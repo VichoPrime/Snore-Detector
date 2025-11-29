@@ -1,0 +1,33 @@
+# ============================================
+# ENTRENAMIENTO (PC/Laptop)
+# ============================================
+tensorflow>=2.14.0
+numpy>=1.24.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+# librosa solo si usas train_snore_end2end_optimized.py (opcional)
+# librosa>=0.10.1
+
+# ============================================
+# RASPBERRY PI ZERO (Inferencia) - SIN LIBROSA
+# ============================================
+# Solo necesitas estas librerías ligeras:
+# pip3 install numpy scipy pyserial tflite-runtime
+#
+# tflite-runtime>=2.14.0
+# numpy>=1.24.0
+# scipy>=1.11.0
+# pyserial>=3.5
+
+# Instrucciones para Raspberry Pi Zero:
+# 1. sudo apt-get update && sudo apt-get install python3-pip python3-numpy python3-scipy
+# 2. pip3 install pyserial
+# 3. pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite-runtime
+
+# ============================================
+# ARDUINO NANO BLE SENSE REV2
+# ============================================
+# No requiere dependencias Python
+# Usar Arduino IDE 2.x con board package:
+# - Arduino Mbed OS Nano Boards
+# - Librería PDM incluida

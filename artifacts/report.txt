@@ -1,0 +1,16 @@
+MODELO ENTRENADO CON SCIPY (Compatible con RPi Zero)
+==================================================
+
+              precision    recall  f1-score   support
+
+  background     0.9861    0.9467    0.9660       300
+       snore     0.9487    0.9867    0.9673       300
+
+    accuracy                         0.9667       600
+   macro avg     0.9674    0.9667    0.9667       600
+weighted avg     0.9674    0.9667    0.9667       600
+
+
+Matriz de confusión:
+[[284  16]
+ [  4 296]]
