@@ -77,8 +77,8 @@ python3 snore_detectorv2.py --model artifacts/snore_model_int8.tflite \
 
 ## Agradecimientos
 
-- **VichoPrime**
-- **naiki919**
-- **bluarchv**
-- **mandimeow**
-- **jespinozaopk**
+- GitHub: @VichoPrime
+- GitHub: @naiki919
+- GitHub: @bluarchv
+- GitHub: @mandimeow
+- GitHub: @jespinozaopk
